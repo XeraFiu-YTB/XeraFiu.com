@@ -100,21 +100,21 @@ h2 {
 }
 .sk-spinner-wordpress.sk-spinner {
   background-color: #3366CC;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
+  width: 120px;/*30px*/
+  height: 120px;
+  border-radius: 120px;
   position: relative;
   -webkit-animation: sk-innerCircle 1s linear infinite;
           animation: sk-innerCircle 1s linear infinite; }
 .sk-spinner-wordpress .sk-inner-circle {
   display: block;
   background-color: #fff;
-  width: 8px;
-  height: 8px;
+  width: 32px;/*8px*/
+  height: 32px;
   position: absolute;
-  border-radius: 8px;
-  top: 5px;
-  left: 5px; }
+  border-radius: 32px;
+  top: 20px;/*5px*/
+  left: 20px; }
 
 @-webkit-keyframes sk-innerCircle {
   0% {
